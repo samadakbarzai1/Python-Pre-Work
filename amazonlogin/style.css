@@ -3,24 +3,20 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.center
+{   position: relative;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-form.positions
-{
-    
-    position: absolute;
-    min-height: auto;
-    max-height: 50vh;
-    min-width: auto;
-    max-width: 50vw;
-    right: 50%;
-    bottom: 50%;
-   
 }
+
 #signin
 {
     font-size: 22px;
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
 .border
@@ -41,8 +37,8 @@ form.positions
 }
 .textcss
 {   
-    display: inline;
-    margin: 5px;
+   margin: 5px;
+  
 }
 
 
@@ -70,11 +66,7 @@ form.positions
     float: right;
     top: 10%
 }
-#divissue
-{
-    position: absolute;
-    bottom: 100px;
-}
+
 
 .linkcss2
 {   
@@ -89,8 +81,8 @@ form.positions
 
 position: absolute;
 
-right: 52%;
-bottom: 48%;
+right: 43%;
+bottom: 35%;
 }
 
 #secondbtn
@@ -100,8 +92,8 @@ bottom: 48%;
     max-height: 50vh;
     min-width: auto;
     max-width: 50vw;
-    right: 50%;
-    bottom: 40%;
+    right: 42%;
+    bottom: 30%;
     margin: 5px;
     width: 300px;
     height: 30px;
