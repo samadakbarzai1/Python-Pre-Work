@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+form.positions
+{
+    
+    position: absolute;
+    min-height: auto;
+    max-height: 50vh;
+    min-width: auto;
+    max-width: 50vw;
+    right: 50%;
+    bottom: 50%;
+   
+}
+#signin
+{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.border
+{
+
+    border: rgba(190, 188, 188, 0.404) solid 1px;
+}
+
+
+
+.inputcss
+{
+    display: inline;
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    
+}
+.textcss
+{   
+    display: inline;
+    margin: 5px;
+}
+
+
+.buttoncss
+{
+    background-color: orange;
+    border: rgb(192, 192, 192) solid 1px;
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+
+
+}
+.linkcss
+{   
+    display:inline;
+    float: right;
+    margin: 5px;
+    text-decoration: none;
+}
+
+#linkdivpos
+{
+    position: relative;
+    float: right;
+    top: 10%
+}
+#divissue
+{
+    position: absolute;
+    bottom: 100px;
+}
+
+.linkcss2
+{   
+   
+    
+    margin: 5px;
+    text-decoration: none;
+}
+
+#preposition{
+
+
+position: absolute;
+
+right: 52%;
+bottom: 48%;
+}
+
+#secondbtn
+{
+    position: absolute;
+    min-height: auto;
+    max-height: 50vh;
+    min-width: auto;
+    max-width: 50vw;
+    right: 50%;
+    bottom: 40%;
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+
+}
