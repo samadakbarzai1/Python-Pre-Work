@@ -3,7 +3,12 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.center
+
+#formborder
+{
+    border: rgba(190, 188, 188, 0.404) solid 1px;
+}
+#center
 {   position: relative;
     height: 100vh;
     flex-direction: column;
@@ -19,11 +24,6 @@
     margin: 5px;
 }
 
-.border
-{
-
-    border: rgba(190, 188, 188, 0.404) solid 1px;
-}
 
 
 

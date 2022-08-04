@@ -1,0 +1,132 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav ul 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    min-height: 10vh;
+}
+
+
+nav ul li
+{
+    position: relative;
+    left:200px;
+    list-style: none;
+    margin: 30px;
+    
+}
+
+nav ul li a
+
+{
+    text-decoration: none;
+    color: white;
+}
+
+nav div
+{
+    position: absolute;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#background
+{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    max-height: 100vh;
+    background-image: url("theater-image-background.png");
+}
+
+.border
+{
+    border: red solid 1px;
+}
+
+#btn-1
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+#btn-size
+{
+    width: 50vw;
+}
+
+
+.flex-content
+{   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    min-width: 10vw;
+    min-height: 10vw;
+    
+}
+
+#imagesize
+{
+  margin-top: 20px;
+  width: 15vw;
+  height: 20vh;
+  margin-left: 110px; 
+   
+}
+
+
+#headtag
+{
+    margin-left: 60px;
+}
+
+
+.forbutton
+{
+    background-color: orange;
+    margin-top: 60px;
+    width: 5vw;
+}
+
+
+footer img
+{
+    width: 25vw;
+    height: 30vh;
+
+}
+
+
+footer 
+{
+    min-height: 30vh;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+footer div h2,h5
+{
+    color: white;
+    margin: 70px;
+}
+
